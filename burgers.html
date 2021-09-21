@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="burgerSize">Выберите размер бургера:<br>
+        <input type="radio" name="size" id="1" checked="checked">маленький (50 баксов, 20 ккал)<br>
+        <input type="radio" name="size" id="2">большой (100 баксов, 40 ккал)<br>
+    </div>
+    <div id="nachinka">
+        Выберите начинку:<br>
+        <input type="checkbox" id="3">сыр (+ 10 баксов, + 20 ккал)<br>
+        <input type="checkbox" id="4">салат (+ 20 баксов, + 5 ккал)<br>
+        <input type="checkbox" id="5">картошка (+ 15 баксов, + 10 ккал)<br>
+        Дополнительно:<br>
+        <input type="checkbox" id="6">приправа (+ 15 баксов, 0 ккал)<br>
+        <input type="checkbox" id="7">майонез (+ 20 баксов, + 5 ккал)<br>
+        <br>
+    </div>
+    <button id="burgerValue">Итого:</button>
+    <span id="burgerPrice"></span><span> баксов<span id="burgerEnergy"></span><span> ккал</span>
+
+        <script src="./burgers.js"></script>
+</body>
+
+</html>
